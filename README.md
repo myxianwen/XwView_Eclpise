@@ -33,5 +33,16 @@ This is a view of xianwen for Android Eclpise... 轻松接入鲜闻内容
 **ToDo List**
 >1.调试开发各个二级页面 <br>
 
+<br>
+<br>
+
+**附注**：
+
+>1.新闻News类说明：
+>![image](https://raw.githubusercontent.com/frendyxzc/XwView/master/screenshot/20161205115129.png)<br>
+
+<br>
+<br>
+
 **Releasenote**:
 >1.1.7C  开放鲜闻新闻列表 <br>
