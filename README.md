@@ -21,10 +21,10 @@ This is a view of xianwen for Android Eclpise... 轻松接入鲜闻内容
 >1.申请鲜闻appid和appkey，[点这里马上申请](http://www.myxianwen.com/ "鲜闻开放平台")； <br>
 
 >2.打开工程目录，如下：
->![image](https://raw.githubusercontent.com/frendyxzc/XwView_Eclpise/master/screenshot/20161221150430.png) <br>
+>![image](https://github.com/myxianwen/XwView_Eclpise/blob/master/screenshot/20161221150430.png) <br>
 
 >3.导入相关依赖工程，如下：
->![image](https://raw.githubusercontent.com/frendyxzc/XwView_Eclpise/master/screenshot/20161221150346.png) <br>
+>![image](https://github.com/myxianwen/XwView_Eclpise/blob/master/screenshot/20161221150346.png) <br>
 >目前demo里target=android-23
 
 <br>
