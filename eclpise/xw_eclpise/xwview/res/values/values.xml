@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_entries_pixel_format">
+        <item>Auto Select</item>
+        <item>RGB 565</item>
+        <item>RGB 888</item>
+        <item>RGBX 8888</item>
+        <item>YV12</item>
+        <item>OpenGL ES2</item>
+    </string-array>
+    <string-array name="pref_entries_player">
+        <item>Auto Select</item>
+        <item>AndroidMediaPlayer</item>
+        <item>IjkMediaPlayer</item>
+        <item>IjkExoMediaPlayer</item>
+    </string-array>
+    <string-array name="pref_entry_summaries_pixel_format">
+        <item>Auto Select</item>
+        <item>RGB 565</item>
+        <item>RGB 888</item>
+        <item>RGBX 8888</item>
+        <item>YV12</item>
+        <item>OpenGL ES2</item>
+    </string-array>
+    <string-array name="pref_entry_summaries_player">
+        <item>Auto Select</item>
+        <item>AndroidMediaPlayer</item>
+        <item>IjkMediaPlayer</item>
+        <item>IjkExoMediaPlayer</item>
+    </string-array>
+    <string-array name="pref_entry_values_pixel_format">
+        <item/>
+        <item>fcc-rv16</item>
+        <item>fcc-rv24</item>
+        <item>fcc-rv32</item>
+        <item>fcc-yv12</item>
+        <item>fcc-_es2</item>
+    </string-array>
+    <string-array name="pref_entry_values_player">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <attr format="reference|color" name="commends_textcolor"/>
+    <attr format="reference|color" name="dotted_line_color"/>
+    <attr format="reference|color" name="editview_textcolor"/>
+    <attr format="reference" name="entrySummaries"/>
+    <attr format="reference|color" name="item_secondary_textcolor"/>
+    <attr format="reference|color" name="jijian_bar_bg"/>
+    <attr format="reference|color" name="jijian_bg"/>
+    <attr format="reference|color" name="label_textcolor"/>
+    <attr format="reference|color" name="line_color_red"/>
+    <attr format="reference|color" name="main_bg"/>
+    <attr format="reference|color" name="main_textcolor"/>
+    <attr format="reference|color" name="relative_textcolor"/>
+    <attr format="reference|color" name="second_bg"/>
+    <attr format="reference|color" name="second_bg_video"/>
+    <attr format="reference|color" name="second_textcolor"/>
+    <attr format="reference|color" name="second_textcolor_video"/>
+    <attr format="reference|color" name="subscribe_seperate_line_color"/>
+    <attr format="reference|color" name="third_bg"/>
+    <attr format="reference|color" name="top_bar_bg"/>
+    <attr format="reference|color" name="top_bar_bg_video"/>
+    <attr format="reference|color" name="top_bar_textcolor"/>
+    <attr format="reference" name="ttlm_defaultStyle"/>
+    <attr format="reference|color" name="write_textcolor"/>
+    <color name="a">#ffffff</color>
+    <color name="a1">#aaffffff</color>
+    <color name="a2">#ccffffff</color>
+    <color name="aa">#101010</color>
+    <color name="ab">#8f8f8f</color>
+    <color name="b">#e6e6e6</color>
+    <color name="b1">#fafafa</color>
+    <color name="b2">#C9C9C9</color>
+    <color name="b3">#888888</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="badtext">#3890E6</color>
+    <color name="bg_main_dark">#00131e</color>
+    <color name="bg_main_normal">#ffffff</color>
+    <color name="bg_second_dark">#ffffff</color>
+    <color name="bg_second_normal">#0000ff</color>
+    <color name="bg_third_dark">#BF241D</color>
+    <color name="bg_third_normal">#ed3b34</color>
+    <color name="bg_video_num">#fbfbfb</color>
+    <color name="black_alpha_12">#1F000000</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="black_overlay_1">#bb000000</color>
+    <color name="c">#7a7a7a</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorToolbar">#837F7F7F</color>
+    <color name="color_00">#8A000000</color>
+    <color name="color_0babd1">#0babd1</color>
+    <color name="color_1A000000">#1A000000</color>
+    <color name="color_2b2b2b">#2b2b2b</color>
+    <color name="color_45c01a">#45c01a</color>
+    <color name="color_80cbc4">#80cbc4</color>
+    <color name="color_C231C7">#c231c7</color>
+    <color name="color_e8e8e8">#e8e8e8</color>
+    <color name="color_ff">#F0F0F0</color>
+    <color name="content_bg">#f5f5f5</color>
+    <color name="d">#333333</color>
+    <color name="default_playback_background">#CC000000</color>
+    <color name="dim_foreground_dark">#bebebe</color>
+    <color name="dotted_line_2">#e69575</color>
+    <color name="e">#1b1b1b</color>
+    <color name="f">#be3431</color>
+    <color name="f1">#ed4f64</color>
+    <color name="f2">#d83a2f</color>
+    <color name="f3">#c92821</color>
+    <color name="g">#2f98e6</color>
+    <color name="g1">#bbd4f2</color>
+    <color name="general">#be3431</color>
+    <color name="h">#eeeeee</color>
+    <color name="half_transparent">#65000000</color>
+    <color name="i">#f9ffec</color>
+    <color name="ijk_color_blue_100">#BBDEFB</color>
+    <color name="ijk_color_blue_200">#90CAF9</color>
+    <color name="ijk_color_blue_300">#64B5F6</color>
+    <color name="ijk_color_blue_400">#42A5F5</color>
+    <color name="ijk_color_blue_50">#E3F2FD</color>
+    <color name="ijk_color_blue_500">#2196F3</color>
+    <color name="ijk_color_blue_600">#1E88E5</color>
+    <color name="ijk_color_blue_700">#1976D2</color>
+    <color name="ijk_color_blue_800">#1565C0</color>
+    <color name="ijk_color_blue_900">#0D47A1</color>
+    <color name="ijk_color_blue_main">@color/ijk_color_blue_500</color>
+    <color name="ijk_transparent_dark">#77000000</color>
+    <color name="j">#555555</color>
+    <color name="jijian_bar_bg_1">#ffffff</color>
+    <color name="jijian_bar_bg_2">#202020</color>
+    <color name="jijian_text_focus_2">#0d9d9d</color>
+    <color name="jijian_text_normal_2">#1f4252</color>
+    <color name="k">#999999</color>
+    <color name="l">#dddddd</color>
+    <color name="l1">#dddddddd</color>
+    <color name="label_color">#dc5142</color>
+    <color name="loading">#aafafafa</color>
+    <color name="m">#899ed9</color>
+    <color name="n">#bbbbbb</color>
+    <color name="o">#fa9a2d</color>
+    <color name="p">#fcfcf7</color>
+    <color name="q">#e69575</color>
+    <color name="r">#f8f8f8</color>
+    <color name="s">#e8756d</color>
+    <color name="t">#e8a19b</color>
+    <color name="textcolor_main_dark">#ffffff</color>
+    <color name="textcolor_main_normal">#ff0000</color>
+    <color name="textcolor_second_dark">#000000</color>
+    <color name="textcolor_second_normal">#00ff00</color>
+    <color name="tip_background_color">#be3431</color>
+    <color name="tip_text_color">#ffffff</color>
+    <color name="transparent">#0000</color>
+    <color name="u">#6aaefc</color>
+    <color name="ugc_channel_bar">#ccffffff</color>
+    <color name="uvv_black">#ff000000</color>
+    <color name="uvv_gray">#969696</color>
+    <color name="uvv_light_gray">#ffF0F0F0</color>
+    <color name="uvv_titlebar_bg">#7f000000</color>
+    <color name="v">#1d4259</color>
+    <color name="w">#fafafa</color>
+    <color name="x">#012238</color>
+    <color name="y">#be3431</color>
+    <color name="z">#8c5757</color>
+    <declare-styleable name="CircleSImageView"><attr format="dimension" name="civ_border_width"/><attr format="color" name="civ_border_color"/><attr format="boolean" name="civ_border_overlay"/><attr format="color" name="civ_fill_color"/></declare-styleable>
+    <declare-styleable name="IjkListPreference"><attr name="entrySummaries"/></declare-styleable>
+    <declare-styleable name="PagerSlidingTabStrip"><attr format="color" name="pstsIndicatorColor"/><attr format="color" name="pstsUnderlineColor"/><attr format="color" name="pstsDividerColor"/><attr format="dimension" name="pstsIndicatorHeight"/><attr format="dimension" name="pstsUnderlineHeight"/><attr format="dimension" name="pstsDividerPaddingTopBottom"/><attr format="dimension" name="pstsTabPaddingLeftRight"/><attr format="dimension" name="pstsScrollOffset"/><attr format="reference" name="pstsTabBackground"/><attr format="boolean" name="pstsShouldExpand"/><attr format="boolean" name="pstsTextAllCaps"/><attr format="color" name="pstsTextSelectedColor"/><attr format="float" name="pstsScaleZoomMax"/><attr format="boolean" name="pstsSmoothScrollWhenClickTab"/></declare-styleable>
+    <declare-styleable name="TooltipLayout"><attr format="dimension" name="ttlm_padding"/><attr format="color" name="ttlm_strokeColor"/><attr format="color" name="ttlm_backgroundColor"/><attr format="dimension" name="ttlm_strokeWeight"/><attr format="dimension" name="ttlm_cornerRadius"/><attr format="float" name="ttlm_arrowRatio"/><attr name="android:textAppearance"/><attr name="android:gravity"/><attr format="reference" name="ttlm_overlayStyle"/><attr format="string" name="ttlm_font"/><attr format="dimension" name="ttlm_elevation"/></declare-styleable>
+    <declare-styleable name="TooltipOverlay"><attr name="android:color"/><attr name="android:alpha"/><attr format="integer" name="ttlm_repeatCount"/><attr format="integer" name="ttlm_duration"/><attr name="android:layout_margin"/></declare-styleable>
+    <declare-styleable name="UniversalMediaController"><attr format="boolean" name="uvv_scalable"/></declare-styleable>
+    <declare-styleable name="UniversalVideoView"><attr format="boolean" name="uvv_fitXY"/><attr format="boolean" name="uvv_autoRotation"/></declare-styleable>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_bar_height">230dp</dimen>
+    <dimen name="dp_066">0.66dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="dp_14">14dp</dimen>
+    <dimen name="dp_22">22dp</dimen>
+    <dimen name="dp_36">36dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_60">60dp</dimen>
+    <dimen name="dp_72">72dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_margin_right">-5dp</dimen>
+    <dimen name="fab_margin_top">-5dp</dimen>
+    <dimen name="footer">64dp</dimen>
+    <dimen name="len1">17sp</dimen>
+    <dimen name="len10">15sp</dimen>
+    <dimen name="len11">16sp</dimen>
+    <dimen name="len12">9sp</dimen>
+    <dimen name="len13">14sp</dimen>
+    <dimen name="len14">12sp</dimen>
+    <dimen name="len2">11sp</dimen>
+    <dimen name="len3">17sp</dimen>
+    <dimen name="len4">18sp</dimen>
+    <dimen name="len5">20sp</dimen>
+    <dimen name="len6">10sp</dimen>
+    <dimen name="len7">21sp</dimen>
+    <dimen name="len8">13sp</dimen>
+    <dimen name="len9">16sp</dimen>
+    <dimen name="sp_12">12sp</dimen>
+    <dimen name="sp_14">14sp</dimen>
+    <dimen name="sp_16">16sp</dimen>
+    <dimen name="ttlm_default_corner_radius">4dip</dimen>
+    <dimen name="ttlm_default_elevation">2dp</dimen>
+    <dimen name="ttlm_default_padding">20dip</dimen>
+    <dimen name="ttlm_default_stroke_weight">0dip</dimen>
+    <dimen name="video_view_center_info_txt_size">18sp</dimen>
+    <string name="N_A">N/A</string>
+    <string name="TrackType_audio">Audio</string>
+    <string name="TrackType_metadata">Meta data</string>
+    <string name="TrackType_subtitle">Subtitle</string>
+    <string name="TrackType_timedtext">Timed text</string>
+    <string name="TrackType_unknown">Unknown</string>
+    <string name="TrackType_video">Video</string>
+    <string name="VideoView_ar_16_9_fit_parent">16:9 / Fit parent</string>
+    <string name="VideoView_ar_4_3_fit_parent">4:3 / Fit parent</string>
+    <string name="VideoView_ar_aspect_fill_parent">Aspect / Fill parent</string>
+    <string name="VideoView_ar_aspect_fit_parent">Aspect / Fit parent</string>
+    <string name="VideoView_ar_aspect_wrap_content">Aspect / Wrap content</string>
+    <string name="VideoView_ar_match_parent">Free / Fill parent</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Invalid progressive playback</string>
+    <string name="VideoView_error_text_unknown">网络不给力哦</string>
+    <string name="VideoView_player_AndroidMediaPlayer">Player: AndroidMediaPlayer</string>
+    <string name="VideoView_player_IjkExoMediaPlayer">Player: IjkExoMediaPlayer</string>
+    <string name="VideoView_player_IjkMediaPlayer">Player: IjkMediaPlayer</string>
+    <string name="VideoView_player_none">Player: None</string>
+    <string name="VideoView_render_none">Render: None</string>
+    <string name="VideoView_render_surface_view">Render: SurfaceView</string>
+    <string name="VideoView_render_texture_view">Render: TextureView</string>
+    <string name="a_cache">a-cache</string>
+    <string name="action_settings">Settings</string>
+    <string name="activities_content">中国互联网创新趋势峰会</string>
+    <string name="agree">我同意</string>
+    <string name="app_name">xwView</string>
+    <string name="avatar">头像</string>
+    <string name="bad_text">太水</string>
+    <string name="brightness_changing">亮度:%1$d%%</string>
+    <string name="cancel">取消</string>
+    <string name="close">Close</string>
+    <string name="close_info_dialog">关闭信息界面</string>
+    <string name="collect">收藏</string>
+    <string name="commend">评论</string>
+    <string name="delecte">确认删除</string>
+    <string name="edit">编辑</string>
+    <string name="eg_recommend">我的魅蓝2什么时候也可以刷到最新的固件呀，一直在等当中</string>
+    <string name="eg_recommend_title_1"> 习近平对党校工作的“特别关注”：不是兴趣俱乐部</string>
+    <string name="eg_recommend_title_2"> 习近平对党校工作的特别关注</string>
+    <string name="enter_key_text">请输入关键字</string>
+    <string name="enter_verification_code">请输入验证码</string>
+    <string name="exit">Exit</string>
+    <string name="find_password">忘记密码</string>
+    <string name="footer_text">The Footer</string>
+    <string name="fps">fps</string>
+    <string name="get_pwd">取回密码</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="good_text">好文</string>
+    <string name="google_plus_client_inavailable">Google+ 版本过低或者没有安装，需要升级或安装Google+才能使用！</string>
+    <string name="head">这里是HeadView</string>
+    <string name="header_text">The Header</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hint_enter_commend">请输入您的评论</string>
+    <string name="hint_enter_reply">您的回复</string>
+    <string name="hint_feedback">感谢反馈，请写下您的问题或意见</string>
+    <string name="hint_phone">请输入手机号</string>
+    <string name="hint_secret">请输入密码</string>
+    <string name="hot_comment">热门评论</string>
+    <string name="hot_topic">热门话题</string>
+    <string name="list_footer_end">已经到底了</string>
+    <string name="list_footer_loading">正在加载中…</string>
+    <string name="list_footer_network_error">点击重新加载</string>
+    <string name="load_fail">加载失败</string>
+    <string name="load_message">登录信息</string>
+    <string name="load_succeed">加载成功</string>
+    <string name="loading">正在加载...</string>
+    <string name="login">登录</string>
+    <string name="login_by_head">点击头像登录</string>
+    <string name="login_by_other">其他方式登录</string>
+    <string name="login_by_phone">手机登录</string>
+    <string name="login_explain_01">登陆即可</string>
+    <string name="login_explain_02">永久保存收藏内容哦</string>
+    <string name="login_news">登录</string>
+    <string name="login_to_format">登陆到%s</string>
+    <string name="main_fragment_one_fenxiangdao">分享给好友</string>
+    <string name="main_fragment_one_fenxiangdao_copy">复制链接</string>
+    <string name="main_fragment_one_fenxiangdao_email">邮件</string>
+    <string name="main_fragment_one_fenxiangdao_qqhy">QQ好友</string>
+    <string name="main_fragment_one_fenxiangdao_qqkj">QQ空间</string>
+    <string name="main_fragment_one_fenxiangdao_qqwb">腾讯微博</string>
+    <string name="main_fragment_one_fenxiangdao_wx">微信好友</string>
+    <string name="main_fragment_one_fenxiangdao_wxpyq">微信朋友圈</string>
+    <string name="main_fragment_one_fenxiangdao_xl">新浪微博</string>
+    <string name="media_information">Media Information</string>
+    <string name="mi__selected_audio_track">*</string>
+    <string name="mi__selected_video_track">*</string>
+    <string name="mi_bit_rate">Bit rate</string>
+    <string name="mi_channels">Channels</string>
+    <string name="mi_codec">Codec</string>
+    <string name="mi_frame_rate">Frame rate</string>
+    <string name="mi_language">Language</string>
+    <string name="mi_length">Length</string>
+    <string name="mi_media">Media</string>
+    <string name="mi_pixel_format">Pixel format</string>
+    <string name="mi_player">Player</string>
+    <string name="mi_profile_level">Profile level</string>
+    <string name="mi_resolution">Resolution</string>
+    <string name="mi_sample_rate">Sample rate</string>
+    <string name="mi_stream_fmt1">Stream #%d</string>
+    <string name="mi_type">Type</string>
+    <string name="my_activity">我的活动</string>
+    <string name="my_collect">我的收藏</string>
+    <string name="my_feedback">打小报告</string>
+    <string name="my_game">我的游戏</string>
+    <string name="my_notify">我的通知</string>
+    <string name="my_photo">无图模式</string>
+    <string name="my_push">新闻推送</string>
+    <string name="my_sign_out">退出登录</string>
+    <string name="my_sunornight">夜间模式</string>
+    <string name="my_textsize">大字模式</string>
+    <string name="my_update">检查更新</string>
+    <string name="my_wifi">WIFI提醒</string>
+    <string name="new_comment">最新评论</string>
+    <string name="next">下一步</string>
+    <string name="nickname">昵称</string>
+    <string name="nieht">夜间</string>
+    <string name="not_yet_authorized">尚未授权</string>
+    <string name="notify_commend">欢迎使用鲜闻客户端</string>
+    <string name="notify_commend_nv">您有新版本可以更新</string>
+    <string name="notify_head">鲜闻团队</string>
+    <string name="notify_time">2016-04-15</string>
+    <string name="num86">+86</string>
+    <string name="others_ugc">网友们的自创频道</string>
+    <string name="phonelogin">手机登录</string>
+    <string name="play_video_after_connected">请联网后观看</string>
+    <string name="pref_key_enable_background_play">pref.enable_background_play</string>
+    <string name="pref_key_enable_detached_surface_texture">pref.enable_detached_surface_texture</string>
+    <string name="pref_key_enable_no_view">pref.enable_no_view</string>
+    <string name="pref_key_enable_surface_view">pref.enable_surface_view</string>
+    <string name="pref_key_enable_texture_view">pref.enable_texture_view</string>
+    <string name="pref_key_last_directory"/>
+    <string name="pref_key_pixel_format">pref.pixel_format</string>
+    <string name="pref_key_player">pref.player</string>
+    <string name="pref_key_using_android_player">pref.using_android_player</string>
+    <string name="pref_key_using_media_codec">pref.using_media_codec</string>
+    <string name="pref_key_using_media_codec_auto_rotate">pref.using_media_codec_auto_rotate</string>
+    <string name="pref_key_using_opensl_es">pref.using_opensl_es</string>
+    <string name="pref_summary_enable_background_play">need Android 4.0+</string>
+    <string name="pref_summary_enable_detached_surface_texture"/>
+    <string name="pref_summary_enable_no_view"/>
+    <string name="pref_summary_enable_surface_view"/>
+    <string name="pref_summary_enable_texture_view"/>
+    <string name="pref_summary_using_android_player"/>
+    <string name="pref_summary_using_media_codec"/>
+    <string name="pref_summary_using_media_codec_auto_rotate"/>
+    <string name="pref_summary_using_opensl_es"/>
+    <string name="pref_title_enable_background_play">Enable background play</string>
+    <string name="pref_title_enable_detached_surface_texture">Enable detached SurfaceTexture</string>
+    <string name="pref_title_enable_no_view">Enable NoView</string>
+    <string name="pref_title_enable_surface_view">Enable SurfaceView</string>
+    <string name="pref_title_enable_texture_view">Enable TextureView</string>
+    <string name="pref_title_general">General</string>
+    <string name="pref_title_ijkplayer_audio">Audio: ijkplayer</string>
+    <string name="pref_title_ijkplayer_video">Video: ijkplayer</string>
+    <string name="pref_title_pixel_format">Pixel Format</string>
+    <string name="pref_title_player">Choose Player</string>
+    <string name="pref_title_render_view">RenderView</string>
+    <string name="pref_title_using_android_player">Using system player</string>
+    <string name="pref_title_using_media_codec">Using MediaCodec</string>
+    <string name="pref_title_using_media_codec_auto_rotate">Using MediaCodec auto rotate</string>
+    <string name="pref_title_using_opensl_es">Using OpenSL ES</string>
+    <string name="pull_to_refresh">下拉刷新</string>
+    <string name="pullup_to_load">上拉加载更多</string>
+    <string name="qq">QQ</string>
+    <string name="read">最近阅读</string>
+    <string name="reading_about">相关阅读</string>
+    <string name="recent">Recent</string>
+    <string name="recommend_end_left">点击查看关于</string>
+    <string name="recommend_end_right">的更多信息</string>
+    <string name="recommend_head">关心这篇文章，会推荐更多此类内容</string>
+    <string name="refresh_fail">刷新失败</string>
+    <string name="refresh_succeed">正在刷新...</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="reget_verification_code">重新获取</string>
+    <string name="register">注册新账号</string>
+    <string name="release_to_load">释放立即加载</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="remove_to_format">注销%s登录</string>
+    <string name="remove_to_format_success">成功移除%s登录信息</string>
+    <string name="reset_pwd">重置密码</string>
+    <string name="resign">注册</string>
+    <string name="resign_by_phone">手机号注册</string>
+    <string name="resign_final_finish">直接浏览新闻</string>
+    <string name="resign_final_next">继续完善信息</string>
+    <string name="resign_success">注册成功</string>
+    <string name="resign_user">注册</string>
+    <string name="sample">Sample</string>
+    <string name="settings">Settings</string>
+    <string name="share_to_somewhere">分享到</string>
+    <string name="show_info">Info</string>
+    <string name="signout">注销登陆</string>
+    <string name="sm_item_auth">ShareSDK授权demo</string>
+    <string name="software_user_agreement">鲜闻用户协议</string>
+    <string name="str_btn_home">首页</string>
+    <string name="str_btn_mine">我的</string>
+    <string name="str_btn_search">搜索</string>
+    <string name="str_btn_topic">话题</string>
+    <string name="str_btn_vedio">视频</string>
+    <string name="str_channel_title">频道管理</string>
+    <string name="submit">提交</string>
+    <string name="submit_commend">提交</string>
+    <string name="submit_resign">提交注册</string>
+    <string name="subscribe_manager_add">点击添加</string>
+    <string name="subscribe_manager_category_info">单击增删频道</string>
+    <string name="subscribe_manager_category_info_2">长按拖动频道排序或取消</string>
+    <string name="subscribe_more_category">推荐频道</string>
+    <string name="subscribe_my_category">我的频道</string>
+    <string name="suggestion_feedback">意见反馈 (tiao xi ke fu)</string>
+    <string name="title_activity_channel">ChannelActivity</string>
+    <string name="title_activity_commend_dialog">CommendDialogActivity</string>
+    <string name="title_activity_commend_lev2">CommendLev2Activity</string>
+    <string name="title_activity_concord">ConcordActivity</string>
+    <string name="title_activity_enter_dialog">EnterDialogActivity</string>
+    <string name="title_activity_feedback">FeedbackActivity</string>
+    <string name="title_activity_initial">鲜闻</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_login4_phone">Login4PhoneActivity</string>
+    <string name="title_activity_my_collect">MyCollectActivity</string>
+    <string name="title_activity_photo_commends">PhotoCommendsActivity</string>
+    <string name="title_activity_photo_news_content">PhotoNewsContentActivity</string>
+    <string name="title_activity_registerpage">Registerpage</string>
+    <string name="title_activity_resign_activity_lev2">ResignActivity_lev2</string>
+    <string name="title_activity_resign_final">ResignFinalActivity</string>
+    <string name="title_activity_resign_s1">ResignS1Activity</string>
+    <string name="title_activity_resign_s2">ResignS2Activity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_social_share">SocialShareActivity</string>
+    <string name="title_activity_special">SpecialActivity</string>
+    <string name="title_activity_text_contect">TextContectActivity</string>
+    <string name="title_activity_un_read4_list">UnRead4ListActivity</string>
+    <string name="title_activity_un_read_content">UnReadContentActivity</string>
+    <string name="title_activity_upload_avatar">UploadAvatarActivity</string>
+    <string name="title_activity_user_head">UserHeadActivity</string>
+    <string name="title_activity_video_list">VideoListActivity</string>
+    <string name="toggle_player">Player</string>
+    <string name="toggle_ratio">Scale</string>
+    <string name="toggle_render">Render</string>
+    <string name="tracks">Tracks</string>
+    <string name="tv_record_alert">扉页记事本功能，要登陆后才能使用哦~</string>
+    <string name="ugc_create_edit_desc_hint_info">频道说明，200字内</string>
+    <string name="ugc_create_edit_hint_info">频道名（10字内）</string>
+    <string name="unLoad">未登录</string>
+    <string name="user_head_camera">拍照</string>
+    <string name="user_head_gallery">从相册选择</string>
+    <string name="user_head_title">头像</string>
+    <string name="v_cache">v-cache</string>
+    <string name="vdec">vdec</string>
+    <string name="video_play_number">万播放</string>
+    <string name="volume_changing">音量:%1$d%%</string>
+    <string name="waiting">数据加载中...</string>
+    <string name="wechar">微信</string>
+    <string name="wecharfriends">朋友圈</string>
+    <string name="wechat_client_inavailable">目前您的微信版本过低或未安装微信，需要安装微信才能使用</string>
+    <string name="write_comment">写评论</string>
+    <style name="AnimBottom" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_open</item>
+        <item name="android:windowExitAnimation">@anim/popup_close</item>
+    </style>
+    <style name="AnimShadow" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_shadow_open</item>
+        <!--<item name="android:windowExitAnimation">@anim/popup_shadow_close</item>-->
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/content_bg</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+    <style name="MyCommendDialogStyleBottom">
+        <item name="android:windowAnimationStyle">@style/AnimBottom</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <!--<item name="android:backgroundDimEnabled">true</item>-->
+        <!-- 模糊 -->
+    </style>
+    <style name="MyDialogStyleBottom">
+        <item name="android:windowAnimationStyle">@style/AnimShadow</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!-- 背景透明 -->
+        <!--<item name="android:backgroundDimEnabled">true</item>-->
+        <!-- 模糊 -->
+    </style>
+    <style name="MyTextAppearanceSmall">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/tip_text_color</item>
+    </style>
+    <style name="ToolTipLayoutDefaultStyle">
+        <item name="ttlm_padding">@dimen/ttlm_default_padding</item>
+        <item name="ttlm_strokeColor">@android:color/transparent</item>
+        <item name="ttlm_backgroundColor">@color/tip_background_color</item>
+        <item name="ttlm_strokeWeight">@dimen/ttlm_default_stroke_weight</item>
+        <item name="ttlm_cornerRadius">@dimen/ttlm_default_corner_radius</item>
+        <item name="ttlm_arrowRatio">1.4</item>
+        <item name="android:textAppearance">@style/MyTextAppearanceSmall</item>
+        <item name="ttlm_overlayStyle">@style/ToolTipOverlayDefaultStyle</item>
+        <item name="ttlm_elevation">@dimen/ttlm_default_elevation</item>
+    </style>
+    <style name="ToolTipOverlayDefaultStyle">
+        <item name="android:color">?attr/colorAccent</item>
+        <item name="ttlm_repeatCount">99</item>
+        <item name="ttlm_duration">600</item>
+        <item name="android:alpha">0.5</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+    <style name="Universal.Widget.ProgressBar" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/uvv_progress_rotate</item>
+        <item name="android:indeterminateDuration">1000</item>
+    </style>
+    <style name="theme_1">
+        <item name="main_bg">@color/bg_main_normal</item>
+        <item name="jijian_bg">@color/r</item>
+        <item name="jijian_bar_bg">@color/jijian_bar_bg_1</item>
+        <item name="label_textcolor">@color/f</item>
+        <item name="main_textcolor">@color/e</item>
+        <item name="relative_textcolor">@color/j</item>
+        <item name="commends_textcolor">@color/k</item>
+        <item name="second_bg">@color/b</item>
+        <item name="second_bg_video">@color/bg_video_num</item>
+        <item name="second_textcolor">@color/textcolor_main_dark</item>
+        <item name="second_textcolor_video">@color/c</item>
+        <item name="third_bg">@color/bg_third_normal</item>
+        <item name="top_bar_bg">@color/f</item>
+        <item name="top_bar_bg_video">@color/a</item>
+        <item name="item_secondary_textcolor">@color/c</item>
+        <item name="write_textcolor">@color/a</item>
+        <item name="editview_textcolor">@color/c</item>
+        <item name="subscribe_seperate_line_color">@color/a</item>
+        <item name="top_bar_textcolor">@color/a</item>
+    </style>
+    <style name="theme_2">
+        <item name="main_bg">@color/bg_main_dark</item>
+        <item name="jijian_bg">@color/bg_main_dark</item>
+        <item name="jijian_bar_bg">@color/jijian_bar_bg_2</item>
+        <item name="label_textcolor">@color/label_color</item>
+        <item name="main_textcolor">@color/jijian_text_normal_2</item>
+        <item name="relative_textcolor">@color/a</item>
+        <item name="commends_textcolor">@color/a</item>
+        <item name="second_bg">@color/jijian_bar_bg_2</item>
+        <item name="second_bg_video">@color/jijian_bar_bg_2</item>
+        <item name="second_textcolor">@color/textcolor_second_dark</item>
+        <item name="second_textcolor_video">@color/bg_main_dark</item>
+        <item name="third_bg">@color/bg_third_dark</item>
+        <item name="top_bar_bg">@color/jijian_bar_bg_2</item>
+        <item name="top_bar_bg_video">@color/jijian_bar_bg_2</item>
+        <item name="item_secondary_textcolor">@color/jijian_text_normal_2</item>
+        <item name="write_textcolor">@color/jijian_text_normal_2</item>
+        <item name="editview_textcolor">@color/jijian_text_normal_2</item>
+        <item name="subscribe_seperate_line_color">@color/jijian_bar_bg_2</item>
+        <item name="top_bar_textcolor">@color/jijian_text_normal_2</item>
+    </style>
+    <style name="xw_MediaController_SeekBar">
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+        <!--
+        <item name="android:progressDrawable">@drawable/mediacontroller_seekbar</item>
+        <item name="android:thumb">@drawable/mediacontroller_seekbar_thumb</item>
+        -->
+    </style>
+    <style name="xw_MediaController_Text">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/a</item>
+        <!--<item name="android:textStyle">bold</item>-->
+    </style>
+    <style name="xw_blue_text_style">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/g</item>
+    </style>
+    <style name="xw_editview_style">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?attr/editview_textcolor</item>
+    </style>
+    <style name="xw_gray_text_style">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/c</item>
+    </style>
+    <style name="xw_gray_text_style_m">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/c</item>
+    </style>
+    <style name="xw_gray_text_style_s">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@color/c</item>
+    </style>
+    <style name="xw_item_abstract">
+        <item name="android:textSize">13.0sp</item>
+        <item name="android:textColor">?attr/main_textcolor</item>
+    </style>
+    <style name="xw_item_image">
+        <item name="android:background">@drawable/image_for_empty_uri</item>
+        <item name="android:layout_width">105dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+    <style name="xw_item_image_gap">
+        <item name="android:layout_width">1.0dip</item>
+        <item name="android:layout_height">1.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="xw_item_secondary_text">
+        <item name="android:textSize">11.0sp</item>
+        <item name="android:textColor">@color/c</item>
+    </style>
+    <style name="xw_item_text_label">
+        <item name="android:background">@drawable/item_text_label</item>
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@color/f</item>
+    </style>
+    <style name="xw_item_title">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">@color/e</item>
+    </style>
+    <style name="xw_item_title_null_bg">
+        <item name="android:textSize">17.0sp</item>
+    </style>
+    <style name="xw_listview_for_subline">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@color/b</item>
+    </style>
+    <style name="xw_m_write_text_style">
+        <item name="android:textSize">17.0sp</item>
+        <item name="android:textColor">?attr/write_textcolor</item>
+    </style>
+    <style name="xw_mm_write_text_style">
+        <item name="android:textSize">10.0sp</item>
+        <item name="android:textColor">@color/a</item>
+    </style>
+    <style name="xw_red_text_style">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/f</item>
+    </style>
+    <style name="xw_s_red_text_style">
+        <item name="android:textSize">14.0sp</item>
+        <item name="android:textColor">@color/f</item>
+    </style>
+    <style name="xw_s_write_text_style">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?attr/write_textcolor</item>
+    </style>
+    <style name="xw_subscribe_more_tip_text" parent="@style/xw_subscribe_my_tip_text">
+        <item name="android:textSize">12.0sp</item>
+    </style>
+    <style name="xw_subscribe_my_tip_text">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/e</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="xw_subscribe_seperate_line">
+        <item name="android:background">?attr/subscribe_seperate_line_color</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:layout_marginTop">14.0dip</item>
+        <item name="android:layout_marginBottom">14.0dip</item>
+    </style>
+    <style name="xw_text_16_black">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">@color/e</item>
+    </style>
+    <style name="xw_video_comment_text">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textColor">?attr/main_textcolor</item>
+    </style>
+    <style name="xw_video_title_text" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:textSize">16.0sp</item>
+    </style>
+    <style name="xw_write_text_style">
+        <item name="android:textSize">18.0sp</item>
+        <item name="android:textColor">@color/a</item>
+    </style>
+</resources>

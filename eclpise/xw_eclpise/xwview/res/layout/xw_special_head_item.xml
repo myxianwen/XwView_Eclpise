@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/item_layout_special"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/a"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:background="@color/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgVspecial"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/large_image_h"
+            android:scaleType="fitXY"
+            android:background="@mipmap/e404"
+            />
+
+        <TextView
+            android:id="@+id/tvSpecialContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/xw_gray_text_style_m"
+            android:layout_below="@id/imgVspecial"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <TextView
+            android:id="@+id/tvSpecialLine"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="6.0dip"
+            android:layerType="software"
+            android:layout_below="@id/tvSpecialContent"
+            android:background="@drawable/dotted_line_list" />
+    </RelativeLayout>
+
+</LinearLayout>

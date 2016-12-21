@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_bar_height">230dp</dimen>
+    <dimen name="gif_h">105dp</dimen>
+    <dimen name="large_image_h">198dp</dimen>
+    <dimen name="ugc_h">100dp</dimen>
+</resources>

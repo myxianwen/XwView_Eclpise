@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.XwVideoDetailActivity"
+    tools:showIn="@layout/xw_activity_video_detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:orientation="vertical"
+        android:background="@color/bg_main_normal"
+        >
+        <TextView
+            android:id="@+id/tvVideoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="标题"
+            android:textColor="@color/e"
+            android:textSize="@dimen/len9" />
+        <TextView
+            android:id="@+id/tvVideoPlayNum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvVideoTitle"
+            android:layout_marginLeft="10dp"
+            android:text="300000"
+            android:paddingTop="5dp"
+            android:textColor="@color/k"
+            android:textSize="@dimen/len14" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="-10dp"
+            android:layout_marginLeft="200dp">
+            <ImageView
+                android:id="@+id/imgVvedioWriteCommend"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/text_content_comment3"
+                android:scaleType="center"
+                android:padding="8dp"
+                />
+            <ImageView
+                android:id="@+id/imgVvideoSocialShare"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:src="@mipmap/text_content_return3"
+                android:scaleType="center"
+                android:padding="8dp"
+                />
+        </LinearLayout>
+
+        <include
+            android:id="@+id/video_reading_list"
+            android:visibility="invisible"
+            layout="@layout/xw_news_reading_list" />
+
+        <ImageView
+            android:id="@+id/imgVvediohotcommends"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="0dp"
+            android:src="@mipmap/hot_commends"
+            android:layout_below="@+id/lyVideoLikeDislike" />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lvVideoHotCommends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgVvediohotcommends"
+            android:divider="@null"
+            android:dividerHeight="0dp">
+        </android.support.v7.widget.RecyclerView>
+
+        <ImageView
+            android:id="@+id/imgVvedionewcommends"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/new_commends"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="0dp"
+            android:layout_below="@id/lvVideoHotCommends" />
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/lvVideoNewCommends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgVvedionewcommends"
+            android:divider="@null"
+            android:dividerHeight="0dp">
+        </android.support.v7.widget.RecyclerView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lvVideoNewCommends"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            >
+            <ProgressBar
+                android:id="@+id/barVedioCommend"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_gravity="center_vertical"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="30dp"
+                android:visibility="invisible"
+                />
+            <TextView
+                android:id="@+id/tvVedioMoreCommends"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:text="加载更多评论"
+                android:textSize="@dimen/len9"
+                android:textColor="@color/c"
+                android:background="@color/bg_main_normal"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

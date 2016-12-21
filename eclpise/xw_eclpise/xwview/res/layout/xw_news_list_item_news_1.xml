@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--单图标样式-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    <ImageView
+        android:id="@+id/alone_left_image"
+        android:layout_width="150dp"
+        android:layout_height="90dp"
+        android:scaleType="centerCrop"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="6.0dip"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:id="@+id/alone_right_image"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/image_for_empty_uri"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="6.0dip"
+        android:layout_marginLeft="10dp" />
+
+    <TextView
+        android:id="@+id/item_title"
+        style="@style/xw_item_title_null_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:paddingBottom="5dp"
+        android:paddingTop="2dp"
+        android:layout_toRightOf="@+id/alone_left_image"
+        android:layout_toLeftOf="@id/alone_right_image" />
+    <LinearLayout
+        android:id="@+id/info_layout_single"
+        android:layout_width="fill_parent"
+        android:layout_height="20.0dip"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_toRightOf="@+id/alone_left_image"
+        android:layout_toLeftOf="@id/alone_right_image"
+        android:layout_below="@+id/item_title"
+        android:layout_alignParentBottom="true"
+        >
+
+        <!--下标细节之label-->
+        <TextView
+            android:id="@+id/item_label_single"
+            style="@style/xw_mm_write_text_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:padding="3dp"
+            android:layout_weight="0.0"
+            android:layout_marginRight="8.0dip"
+            />
+
+        <!--下标细节之出处-->
+        <TextView
+            android:id="@+id/item_source_single"
+            style="@style/xw_item_secondary_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:maxLength="8"
+            />
+
+        <View
+            android:layout_width="0.0dip"
+            android:layout_height="1.0dip"
+            android:layout_weight="0.0"
+            android:layout_marginLeft="5.0dip"
+            />
+
+        <!--下标细节之评论图片-->
+        <ImageView
+            android:id="@+id/comment_photo_single"
+            android:background="@mipmap/comment_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <!--下标细节之评论-->
+        <TextView
+            android:id="@+id/comment_count_single"
+            style="@style/xw_item_secondary_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:layout_marginLeft="3.0dip"
+            />
+
+        <TextView
+            android:id="@+id/read_count_single"
+            style="@style/xw_item_secondary_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.0"
+            android:layout_marginLeft="3.0dip"
+            />
+
+        <!--下标细节之发表时间-->
+        <TextView
+            android:id="@+id/publish_time_single"
+            style="@style/xw_item_secondary_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:layout_weight="0.0"
+            android:paddingRight="8.0dip" />
+
+        <!--测试新闻ID显示-->
+        <TextView
+            android:id="@+id/test4NewsId_single"
+            style="@style/xw_item_secondary_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:layout_weight="0.0"
+            android:paddingRight="8.0dip"
+            android:visibility="invisible"/>
+        <!--下标细节之右边距-->
+        <View
+            android:id="@+id/right_padding_view_single"
+            android:layout_width="25.0dip"
+            android:layout_height="1.0dip"
+            android:layout_weight="0.0" />
+    </LinearLayout>
+</RelativeLayout>

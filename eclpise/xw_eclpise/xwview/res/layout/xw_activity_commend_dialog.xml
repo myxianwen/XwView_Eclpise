@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#a0000000"
+    tools:context=".activity.XwCommentDialogActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlyComment"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bg_main_normal"
+        android:visibility="visible"
+        >
+        <TextView
+            android:id="@+id/tvSubmit"
+            android:text="@string/submit_commend"
+            style="@style/xw_write_text_style"
+            android:gravity="center"
+            android:background="@mipmap/submit_bg"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="80dp"
+            android:layout_height="42dp"
+            />
+        <View
+            android:id="@+id/paddingLineCommend"
+            android:background="@color/a"
+            android:layout_above="@id/tvSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="0.6dp" />
+
+        <EditText
+            android:id="@+id/etCommendContent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/text_commend"
+            android:layout_margin="12dp"
+            android:layout_above="@id/paddingLineCommend"
+            android:hint="@string/hint_enter_commend"
+            android:padding="10dp"
+            android:gravity="left"
+            android:textColorHint="@color/b"
+            android:textSize="16sp"
+            android:textColor="@color/e"
+            android:focusable="true"
+            android:cursorVisible = "true"
+            android:textCursorDrawable="@drawable/color_cursor"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvChooseCommend"
+        android:layout_above="@id/rlyComment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

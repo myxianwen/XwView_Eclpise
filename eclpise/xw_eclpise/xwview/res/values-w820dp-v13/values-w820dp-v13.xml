@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="app_bar_height">230dp</dimen>
+    <dimen name="gif_h">239dp</dimen>
+    <dimen name="large_image_h">474dp</dimen>
+    <dimen name="ugc_h">100dp</dimen>
+</resources>
