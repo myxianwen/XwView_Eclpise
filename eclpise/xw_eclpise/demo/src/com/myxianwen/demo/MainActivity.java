@@ -28,25 +28,25 @@ public class MainActivity extends XwNewsListActivity {
         super.OnNewsItemClickedListener(item, newsType, from);
         switch (newsType) {
             case News.TYPE_NEWS:
-//                NewsDetailActivity.intentTo(mContext, NewsDetailActivity.class, item, from);
+                NewsDetailActivity.intentTo(mContext, NewsDetailActivity.class, item, from);
                 break;
             case News.TYPE_VIDEO:
-//                VideoDetailActivity.intentTo(mContext, VideoDetailActivity.class, item, from);
+                VideoDetailActivity.intentTo(mContext, VideoDetailActivity.class, item, from);
                 break;
             case News.TYPE_PIC:
-//                PicDetailActivity.intentTo(mContext, PicDetailActivity.class, item, from);
+                PicDetailActivity.intentTo(mContext, PicDetailActivity.class, item, from);
                 break;
             case News.TYPE_SUBJECT:
-//                SubjectListActivity.intentTo(mContext, SubjectListActivity.class, item);
+                SubjectListActivity.intentTo(mContext, SubjectListActivity.class, item);
                 break;
             case News.TYPE_AD:
-//                AdDetailActivity.intentTo(mContext, AdDetailActivity.class, item);
+                AdDetailActivity.intentTo(mContext, AdDetailActivity.class, item);
                 break;
             case News.TYPE_SUBJECT_DETAIL:
-//                Intent mainIntent = SubjectListActivity.newIntent(mContext, SubjectListActivity.class, item.topic_id);
-//                Intent detailIntent = NewsDetailActivity.newIntent(mContext, NewsDetailActivity.class, item, from);
-//                Intent[] intents = {mainIntent, detailIntent};
-//                startActivities(intents);
+                Intent mainIntent = SubjectListActivity.newIntent(mContext, SubjectListActivity.class, item.topic_id);
+                Intent detailIntent = NewsDetailActivity.newIntent(mContext, NewsDetailActivity.class, item, from);
+                Intent[] intents = {mainIntent, detailIntent};
+                startActivities(intents);
                 break;
             default:
                 break;

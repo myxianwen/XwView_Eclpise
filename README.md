@@ -25,14 +25,13 @@ This is a view of xianwen for Android Eclpise... 轻松接入鲜闻内容
 
 >3.导入相关依赖工程，如下：<br>
 >![image](https://github.com/myxianwen/XwView_Eclpise/blob/master/screenshot/20161221150346.png) <br>
->目前demo里target=android-23
+>目前demo里target=android-23 <br>
 
+>4.工程结构如下：<br>
+>![image](https://github.com/myxianwen/XwView_Eclpise/blob/master/screenshot/20161222094453.png) <br>
+
+>5.具体使用方法可参考demo，或[Android Studio版本的Readme](https://github.com/myxianwen/XwView) <br>
 <br>
-<br>
-
-**ToDo List**
->1.调试开发各个二级页面 <br>
-
 <br>
 
 **附注**：
@@ -44,3 +43,4 @@ This is a view of xianwen for Android Eclpise... 轻松接入鲜闻内容
 
 **Releasenote**:
 >1.1.7C  开放鲜闻新闻列表；<br>
+>1.1.8C  开放鲜闻二级页面；<br>
