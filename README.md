@@ -25,12 +25,12 @@ This is a view of xianwen for Android Eclpise... 轻松接入鲜闻内容
 
 >3.导入相关依赖工程，如下：<br>
 >![image](https://github.com/myxianwen/XwView_Eclpise/blob/master/screenshot/20161221150346.png) <br>
->目前demo里target=android-23 <br>
 
->4.工程结构如下：<br>
+>4.工程结构如下，目前demo里target=android-23：<br>
 >![image](https://github.com/myxianwen/XwView_Eclpise/blob/master/screenshot/20161222094453.png) <br>
 
->5.具体使用方法可参考demo，或[Android Studio版本的Readme](https://github.com/myxianwen/XwView) <br>
+>5.具体使用方法可参考demo，或[Android Studio版本的README，其中用法3~11](https://github.com/myxianwen/XwView) <br>
+
 <br>
 <br>
 
